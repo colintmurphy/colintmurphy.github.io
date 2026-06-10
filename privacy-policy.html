@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Apps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f9f8f6;
+      --surface: #ffffff;
+      --border: #e8e6e1;
+      --text-primary: #1a1a18;
+      --text-secondary: #6b6b66;
+      --text-muted: #9e9e99;
+      --accent: #2a6b4a;
+      --radius-btn: 10px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111110;
+        --surface: #1c1c1a;
+        --border: #2e2e2b;
+        --text-primary: #f0ede8;
+        --text-secondary: #a0a09a;
+        --text-muted: #6a6a64;
+        --accent: #4caf80;
+      }
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-logo {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.3px;
+      text-decoration: none;
+    }
+
+    .nav-contact {
+      font-size: 14px;
+      color: var(--text-secondary);
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-btn);
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .nav-contact:hover {
+      background: var(--surface);
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .content {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 64px 24px 80px;
+    }
+
+    .page-title {
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 600;
+      letter-spacing: -0.6px;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 48px;
+    }
+
+    .policy-section {
+      margin-bottom: 40px;
+    }
+
+    .policy-section h2 {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+
+    .policy-section h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .policy-section p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 12px;
+    }
+
+    .policy-section ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    .policy-section ul li {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 6px;
+    }
+
+    .policy-section ul li strong {
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    footer p { font-size: 13px; color: var(--text-muted); }
+
+    .footer-links { display: flex; gap: 24px; }
+
+    .footer-links a {
+      font-size: 13px;
+      color: var(--text-secondary);
+      transition: color 0.15s;
+    }
+
+    .footer-links a:hover { color: var(--text-primary); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      .content { padding: 40px 16px 64px; }
+      footer { padding: 24px 20px; flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="/">Apps</a>
+    <a class="nav-contact" href="mailto:colin.kumulet@gmail.com?subject=Support">Contact</a>
+  </nav>
+
+  <main class="content">
+    <h1 class="page-title">Privacy Policy</h1>
+    <p class="last-updated">Last updated July 18, 2025</p>
+
+    <div class="policy-section">
+      <p>This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use the Service and tells you about your privacy rights and how the law protects you.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Interpretation and definitions</h2>
+      <h3>Interpretation</h3>
+      <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+
+      <h3>Definitions</h3>
+      <p>For the purposes of this Privacy Policy:</p>
+      <ul>
+        <li><strong>Account</strong> means a unique account created for you to access our Service or parts of our Service.</li>
+        <li><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
+        <li><strong>Application</strong> refers to App, the software program provided by the Company.</li>
+        <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to App.</li>
+        <li><strong>Country</strong> refers to: Arizona, United States.</li>
+        <li><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
+        <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
+        <li><strong>Service</strong> refers to the Application.</li>
+        <li><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company.</li>
+        <li><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself.</li>
+        <li><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service.</li>
+      </ul>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Collecting and using your personal data</h2>
+      <p>Our Service does not collect, store, or share any personal data.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Disclosure of your personal data</h2>
+
+      <h3>Business transactions</h3>
+      <p>If the Company is involved in a merger, acquisition or asset sale, your Personal Data may be transferred. We will provide notice before your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
+
+      <h3>Law enforcement</h3>
+      <p>Under certain circumstances, the Company may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
+
+      <h3>Other legal requirements</h3>
+      <p>The Company may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+      <ul>
+        <li>Comply with a legal obligation</li>
+        <li>Protect and defend the rights or property of the Company</li>
+        <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
+        <li>Protect the personal safety of users of the Service or the public</li>
+        <li>Protect against legal liability</li>
+      </ul>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Security of your personal data</h2>
+      <p>The security of your Personal Data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Children's privacy</h2>
+      <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from anyone under the age of 13 without verification of parental consent, we take steps to remove that information from our servers.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Links to other websites</h2>
+      <p>Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+      <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Changes to this privacy policy</h2>
+      <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Contact us</h2>
+      <p>If you have any questions about this Privacy Policy, you can contact us by email: <a href="mailto:colin.kumulet@gmail.com?subject=Privacy%20Policy">colin.kumulet@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Apps. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="mailto:colin.kumulet@gmail.com?subject=Contact">colin.kumulet@gmail.com</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+    </div>
+  </footer>
+
+</body>
+</html>
