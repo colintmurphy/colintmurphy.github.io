@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — NoBark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f9f8f6;
+      --surface: #ffffff;
+      --border: #e8e6e1;
+      --text-primary: #1a1a18;
+      --text-secondary: #6b6b66;
+      --text-muted: #9e9e99;
+      --accent: #2a6b4a;
+      --radius-btn: 10px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111110;
+        --surface: #1c1c1a;
+        --border: #2e2e2b;
+        --text-primary: #f0ede8;
+        --text-secondary: #a0a09a;
+        --text-muted: #6a6a64;
+        --accent: #4caf80;
+      }
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-logo {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.3px;
+      text-decoration: none;
+    }
+
+    .nav-contact {
+      font-size: 14px;
+      color: var(--text-secondary);
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-btn);
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .nav-contact:hover {
+      background: var(--surface);
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .content {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 64px 24px 80px;
+    }
+
+    .page-title {
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 600;
+      letter-spacing: -0.6px;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 48px;
+    }
+
+    .policy-section {
+      margin-bottom: 40px;
+    }
+
+    .policy-section h2 {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+
+    .policy-section h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .policy-section p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 12px;
+    }
+
+    .policy-section ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    .policy-section ul li {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 6px;
+    }
+
+    .policy-section ul li strong {
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    footer p { font-size: 13px; color: var(--text-muted); }
+
+    .footer-links { display: flex; gap: 24px; }
+
+    .footer-links a {
+      font-size: 13px;
+      color: var(--text-secondary);
+      transition: color 0.15s;
+    }
+
+    .footer-links a:hover { color: var(--text-primary); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      .content { padding: 40px 16px 64px; }
+      footer { padding: 24px 20px; flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="/">Apps</a>
+    <a class="nav-contact" href="mailto:colin.kumulet@gmail.com?subject=Support">Contact</a>
+  </nav>
+
+  <main class="content">
+    <h1 class="page-title">Privacy Policy — NoBark</h1>
+    <p class="last-updated">Last updated September 29, 2026</p>
+
+    <div class="policy-section">
+      <p>This policy explains what information NoBark ("the app") handles, where it is stored, and who it is shared with. NoBark is developed by Colin Murphy ("we", "us") in Illinois, United States.</p>
+      <p><strong>The short version:</strong> your training data stays on your device. We don't have accounts or servers, and we never see your logs. The only data that leaves your device is what Google needs to show ads to free users, and what Apple handles when you subscribe.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Information stored on your device</h2>
+      <p>NoBark saves the following <strong>only on your iPhone</strong> (and your Apple Watch, where noted). It is never sent to us:</p>
+      <ul>
+        <li><strong>Training data:</strong> bark episodes you log (trigger, intensity, date), training plans, session results, reaction counts, and streaks.</li>
+        <li><strong>Sound activity:</strong> a daily count of how many training sounds you've played, used for your streak and progress totals.</li>
+        <li><strong>Settings:</strong> your chosen sound, delay, reminder time, and onboarding status.</li>
+        <li><strong>Custom sounds:</strong> audio files you import. If you add a sound from a web address, the app downloads that file directly from the address you enter, so that website receives a normal web request (including your IP address); we don't receive it.</li>
+      </ul>
+      <p>Your sound and delay settings and the names of your custom sounds are sent between your iPhone and your paired Apple Watch so the Watch can control playback. This uses Apple's Watch connection between your own devices and never passes through us.</p>
+      <p>This data is included in your device backups (iCloud or computer) according to your own backup settings. Deleting the app deletes the data.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Advertising (free version)</h2>
+      <p>The free version of NoBark shows ads provided by <strong>Google AdMob</strong>. To serve and measure ads, Google may collect information from your device, such as:</p>
+      <ul>
+        <li>device and app information (model, operating system version, app version),</li>
+        <li>device identifiers such as the identifier for vendor (IDFV), used for things like limiting how often you see the same ad,</li>
+        <li>IP address and approximate location derived from it,</li>
+        <li>ad interactions (impressions and taps), and</li>
+        <li>diagnostic information about ad performance.</li>
+      </ul>
+      <p>NoBark does not ask for permission to track you across other companies' apps and websites, so Google cannot use your device's advertising identifier (IDFA) for that purpose. Ads may still be tailored using contextual and non-identifying information.</p>
+      <p>Google's use of this information is governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. You can learn more about how Google uses information from apps that use its services at <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a>.</p>
+      <p><strong>NoBark Pro subscribers do not see ads.</strong> The ad software is still included in the app and starts when the app opens, so it may send basic technical information to Google even when no ads are shown.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Subscriptions</h2>
+      <p>NoBark Pro is sold as an auto-renewing subscription through Apple's App Store. <strong>Apple processes all payments.</strong> We never receive your name, payment details, or Apple ID. The app only checks with Apple whether your device has an active NoBark Pro subscription so it can unlock Pro features. See <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Notifications</h2>
+      <p>If you turn on the daily reminder, the reminder is scheduled locally on your device. No server is involved, and you can turn it off at any time in the app or in iOS Settings.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Siri and Shortcuts</h2>
+      <p>If you use the "Log a Bark" action with Siri or Shortcuts, the bark is saved on your device like any other log. Apple's handling of Siri requests is covered by Apple's Privacy Policy.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Contacting us</h2>
+      <p>If you choose to email us from the app, we receive your email address and whatever you include in the message. We use it only to reply to you and do not share it.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Links to other websites</h2>
+      <p>The app links to pages such as our contact page, this policy, and Apple's Terms of Use. We are not responsible for the privacy practices of sites we don't operate.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Children's privacy</h2>
+      <p>NoBark is not directed to children under 13, and we do not knowingly collect personal information from children. Because training data never leaves your device, we do not hold any data to delete; if you believe a child has contacted us by email, contact us and we will delete that correspondence.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Your choices</h2>
+      <ul>
+        <li><strong>Delete your data:</strong> swipe to delete individual bark episodes, or past programs in History. Ending a program keeps it in your History until you delete it. Deleting the app removes everything NoBark has stored on your device.</li>
+        <li><strong>Ads:</strong> subscribe to NoBark Pro to remove ads. You can also review your options in Settings → Privacy &amp; Security → Tracking, and manage Google's ad settings at <a href="https://myadcenter.google.com" target="_blank" rel="noopener">myadcenter.google.com</a>.</li>
+        <li><strong>Notifications:</strong> turn off the daily reminder in the app or in iOS Settings.</li>
+      </ul>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Data retention and security</h2>
+      <p>Data stored on your device stays there until you delete it or delete the app, and is protected by your device's own security (passcode and encryption). Emails you send us are kept only as long as needed to help you. Information collected by Google is retained under Google's own policies.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Your privacy rights</h2>
+      <p>Depending on where you live (for example the EU, UK, or certain US states such as California), you may have rights to access, correct, or delete personal information, or to opt out of certain uses of it. Because NoBark keeps your training data only on your device, you can view and delete it directly in the app. For information collected by Google for advertising, you can use Google's controls linked above.</p>
+      <p>We do not sell your personal information, and we do not use your training data for advertising. To ask about your rights or anything we may hold (such as an email you sent us), contact us using the details below.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Changes to this policy</h2>
+      <p>We may update this policy when the app changes. The "Last updated" date at the top shows when it was last revised. If a change significantly affects how your information is handled, we'll mention it in the app's release notes.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="policy-section">
+      <h2>Contact us</h2>
+      <p>Questions about this policy: <a href="mailto:colin.kumulet@gmail.com?subject=NoBark%20Privacy%20Policy">colin.kumulet@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Apps. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="mailto:colin.kumulet@gmail.com?subject=Contact">colin.kumulet@gmail.com</a>
+      <a href="/privacy-policy-nobark">Privacy Policy</a>
+    </div>
+  </footer>
+
+</body>
+</html>
